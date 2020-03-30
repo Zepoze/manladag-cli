@@ -1,0 +1,29 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= (manga && chapter) ? `${manga} n°${chapter}`:'Page Title' %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
+</head>
+<style>
+body {
+    background-color: #222222
+}
+.img-responsive {
+    height:auto;
+    max-width: 100%;
+}
+#wrap-img {
+    text-align: center
+}
+</style>
+<body>
+    <div id="wrap-img">
+        <% files.forEach(e => {%>
+            <img src="<%= e %>" class="img-responsive"/>
+        <% }) %>
+    </div>
+</body>
+</html>

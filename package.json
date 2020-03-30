@@ -1,0 +1,29 @@
+{
+  "name": "manladagx",
+  "version": "1.0.0",
+  "description": "manladag cli",
+  "main": "index.js",
+  "scripts": {
+    "run": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
+  },
+  "bin": {
+    "manladag": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "consola": "^2.11.3",
+    "ejs": "^3.0.2",
+    "images-pdf": "^1.0.3",
+    "manladag-lelscan": "file:../manladag-lelscan",
+    "nconf": "^0.10.0",
+    "rimraf": "^3.0.2",
+    "tape": "^4.13.2",
+    "tape-spawn": "^1.4.2",
+    "yargs": "^15.3.1",
+    "zip-a-folder": "0.0.12"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,23 @@
+{
+  "download-path": "/home/pi/projets/manladag-cli2/Mangas",
+  "source": {
+    "lelscan": {
+      "one-piece": {
+        "last-chapter-available": 0
+      },
+      "dr-stone": {
+        "last-chapter-available": 0
+      },
+      "the-seven-deadly-sins": {
+        "last-chapter-available": 0
+      }
+    }
+  },
+  "preferences": {
+    "download": {
+      "zip": false,
+      "pdf": true,
+      "clean": false
+    }
+  }
+}
