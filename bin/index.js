@@ -18,6 +18,7 @@ if (process.platform === "win32") {
   rl.on("SIGINT", function () {
     process.emit("SIGINT")
   })
+
 }
 
 
@@ -45,5 +46,6 @@ var argv = require('yargs')
       describe: 'Output dettaillé ideal for log'
     })
     .strict()
+    .completion()
     .argv
 //console.log(argv)

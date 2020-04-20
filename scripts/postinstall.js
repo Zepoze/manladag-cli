@@ -6,6 +6,8 @@ const nconf = require('nconf')
 const fs = require('fs')
 const downloadPath = Path.join(__dirname,'..','Mangas')
 const configPath = Path.join(__dirname,'..','config.json')
+let dnow = new Date(Date.now())
+dnow = `${dnow.getFullYear()}-${dnow.getMonth()}-${dnow.getDate()}`
 
 class tmp {}
 
@@ -14,7 +16,8 @@ function processs(source) {
 
     keys.forEach((e) => {
         nconf.set(`source:${source.site.toLowerCase()}:${e}`,{
-            "last-chapter-available": 0
+            "last-chapter-available": 0,
+            "last-check" : dnow
         })
     })
 }

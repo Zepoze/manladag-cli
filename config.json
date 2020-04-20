@@ -3,13 +3,16 @@
   "source": {
     "lelscan": {
       "one-piece": {
-        "last-chapter-available": 0
+        "last-chapter-available": 975,
+        "last-check": "2020-3-2"
       },
       "dr-stone": {
-        "last-chapter-available": 0
+        "last-chapter-available": 0,
+        "last-check": "2020-3-2"
       },
       "the-seven-deadly-sins": {
-        "last-chapter-available": 0
+        "last-chapter-available": 346,
+        "last-check": "2020-3-2"
       }
     }
   },

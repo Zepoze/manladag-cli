@@ -17,7 +17,7 @@
     "consola": "^2.11.3",
     "ejs": "^3.0.2",
     "images-pdf": "^1.0.3",
-    "manladag-lelscan": "file:../manladag-lelscan",
+    "manladag-lelscan": "^1.0.14",
     "nconf": "^0.10.0",
     "rimraf": "^3.0.2",
     "tape": "^4.13.2",
