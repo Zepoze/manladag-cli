@@ -18,7 +18,7 @@
     "ejs": "^3.0.2",
     "images-pdf": "^1.0.3",
     "manladag-lelscan": "^1.0.14",
-    "nconf": "^0.10.0",
+    "nconf": "^0.11.4",
     "rimraf": "^3.0.2",
     "tape": "^4.13.2",
     "tape-spawn": "^1.4.2",
